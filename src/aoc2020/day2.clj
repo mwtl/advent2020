@@ -1,6 +1,9 @@
 (ns aoc2020.day2
   (:require [clojure.string :as str]))
 
+(def input-test (clojure.string/split-lines (slurp "resources/day2-test.txt")))
+(def input (clojure.string/split-lines (slurp "resources/day2.txt")))
+
 (defn parser [input] (
   let [splitted (str/split input #" ")
        n (str/split (get splitted 0) #"-")

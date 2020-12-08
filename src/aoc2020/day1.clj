@@ -1,6 +1,9 @@
 (ns aoc2020.day1
   (:require [clojure.math.combinatorics :as combo]))
 
+(def input-test '(1721 979 366 299 675 1456))
+(def input (map #(read-string %1) (clojure.string/split-lines (slurp "resources/day1.txt"))))
+
 (defn combo-data [numbers]
  (let [s (apply + numbers)
        p (apply * numbers)]
