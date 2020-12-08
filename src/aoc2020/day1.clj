@@ -1,14 +1,5 @@
-(ns day1.core
+(ns aoc2020.day1
   (:require [clojure.math.combinatorics :as combo]))
-
-(def test-data '(1721
-979
-366
-299
-675
-1456))
-
-(def assignment-data (map #(read-string %1) (clojure.string/split-lines (slurp "resources/numbers.txt"))))
 
 (defn combo-data [numbers]
  (let [s (apply + numbers)
@@ -27,11 +18,4 @@
   (let [r (distinct (filter #(= checksum (:sum %1)) (combo-data-map data times)))]
     (distinct-by :sum r)))
 
-(def part1 (:product (into {} (results assignment-data 2020 2))))
-
-(def part2 (:product (into {} (results assignment-data 2020 3))))
-
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+(defn solution [input v1 v2] (:product (into {} (results input v1 v2))))
