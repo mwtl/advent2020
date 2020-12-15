@@ -168,3 +168,256 @@ find-uv
 (d4/p2-valid? (nth (d4/passports d4/input-test) 4))
 (d4/p2-solution d4/input-test)
 (d4/p2-solution d4/input)
+input-test
+x
+(take 5 x)
+(take 7 x)
+(take 8 x)
+(nth (take 7 x) 0)
+(= (nth (take 7 x) 0) "F")
+(= (nth (take 7 x) 0) \F)
+(127 / 2)
+(/ 127 2)
+(math/floor (/ 127 2))
+(Math/floor (/ 127 2))
+(int (Math/floor (/ 127 2)))
+(int (Math/ceil (/ 127 2)))
+(int (Math/floor (/ 127 2)))
+(+ 0 63)
+(- 127 63)
+(clojure.string/split x "#\d+" 1)
+(clojure.string/split x "#\d" 1)
+(clojure.string/split x "#/d+" 1)
+(clojure.string/split x #\d+" 1)
+(clojure.string/split x #"\d+" 1)
+x
+(clojure.string/split x #"\d+" 2)
+(clojure.string/split x #"" 1)
+(clojure.string/split x #"" 2)
+(take 1 x)
+(nth (clojure.string/split x #"" 2) 1)
+(nth (clojure.string/split x #"" 2) 0)
+(nth (clojure.string/split x #"" 2) 3)
+(def y "y")
+(clojure.string/split y #"" 2)
+(clojure.string/split "" #"" 2)
+(nth (clojure.string/split x #"" 2) 0)
+(nth (clojure.string/split x #"" 2) 1)
+(take 1 x)
+(nth (take 1 x) 0)
+(lenght x)
+(count x)
+(subs x 1)
+(/ (- 127 0) 2)
+(int (Math.ceil (/ (- 127 0) 2)))
+(int (Math/ceil (/ (- 127 0) 2)))
+(int (Math/floor (/ (- 127 0) 2)))
+(int (Math/floor (/ (- 63 0) 2)))
+(defn reducer [lower upper value]
+  (let [next (subs value 1)
+        up? (case (nth (take 1 x) 0)
+                (/B /R) true
+                false)
+        next-n (int (Math/floor (/ (- upper lower) 2)))
+        next-lower (if (true? up?) (- upper next-n) lower)
+        next-upper (if (true? up?) upper (+ lower next-n))]
+(case (nth (take 1 x) 0)
+                (/B /R) true
+(case (nth (take 1 x) 0)
+                ("/B" "/R") true
+                false)
+(take 1 x)
+(case (nth (take 1 x) 0)
+                ("/B" "/F") true
+                false)
+(case (nth (take 1 x) 0)
+                '(/B /F) true
+(case (nth (take 1 x) 0)
+                (\B \F) true
+                false)
+(defn reducer [lower upper value]
+  (let [next (subs value 1)
+        up? (case (nth (take 1 x) 0)
+                (\B \R) true
+                false)
+        next-n (int (Math/floor (/ (- upper lower) 2)))
+        next-lower (if (true? up?) (- upper next-n) lower)
+        next-upper (if (true? up?) upper (+ lower next-n))]
+        (if (= next-upper next-lower) next-upper (reducer next-lower next-upper next))))
+(reducer 0 127 "FBFBBFF")
+(reducer 0 127 "FBFBBFF")(defn reducer [lower upper value]
+  (let [next (subs value 1)
+        up? (case (nth (take 1 x) 0)
+                (\B \R) true
+                false)
+        next-n (int (Math/floor (/ (- upper lower) 2)))
+        next-lower (if (true? up?) (- upper next-n) lower)
+        next-upper (if (true? up?) upper (+ lower next-n))]
+        (if (= next-upper next-lower) next-upper next-lower)))
+(reducer 0 127 "FBFBBFF")
+(def l 0)
+l
+(def u 127)
+(def value (defn reducer [lower upper value]
+  (let [next (subs value 1)
+        up? (case (nth (take 1 x) 0)
+                (\B \R) true
+                false)
+        next-n (int (Math/floor (/ (- upper lower) 2)))
+        next-lower (if (true? up?) (- upper next-n) lower)
+        next-upper (if (true? up?) upper (+ lower next-n))]
+        next-upper (if (true? up?) upper (+ lower next-n))])))))))
+(def value "FBFBBFF")
+(def next (subs value 1))
+(def next2 (subs value 1))
+next
+(defn reducer [lower upper value]
+  (let [next (subs value 1)
+        up? (case (nth (take 1 value) 0)
+                (\B \R) true
+                false)
+        next-n (int (Math/floor (/ (- upper lower) 2)))
+        next-lower (if (true? up?) (- upper next-n) lower)
+        next-upper (if (true? up?) upper (+ lower next-n))]
+        (if (= next-upper next-lower) next-upper next-lower)))
+(reducer 0 127 "FBFBBFF")
+value
+(defn reducer [lower upper value]
+  (let [next (subs value 1)
+        up? (case (nth (take 1 value) 0)
+                (\B \R) true
+                false)
+        next-n (int (Math/floor (/ (- upper lower) 2)))
+        next-lower (if (true? up?) (- upper next-n) lower)
+        next-upper (if (true? up?) upper (+ lower next-n))]
+        (if (= next-upper next-lower) next-upper next-lower)))
+(def up? (case (nth (take 1 value) 0)
+                (\B \R) true
+                false))
+up?
+(def next-n (int (Math/floor (/ (- u l) 2)))
+)
+next-n
+(def next-lower (if (true? up?) (- upper next-n) l))
+(def next-lower (if (true? up?) (- u next-n) l))
+next-lower
+u
+next-n
+l
+(def next-upper (if (true? up?) u (+ l next-n)))
+next-upper
+next-lower
+(= next-upper next-lower)
+(next-upper)
+(defn reducer [lower upper value]
+  (let [next (subs value 1)
+        up? (case (nth (take 1 value) 0)
+                (\B \R) true
+                false)
+        next-n (int (Math/floor (/ (- upper lower) 2)))
+        next-lower (if (true? up?) (- upper next-n) lower)
+        next-upper (if (true? up?) upper (+ lower next-n))]
+        (if (= next-upper next-lower) next-upper next-lower)))
+(reducer 0 127 x)
+next
+next2
+up?
+next-n
+next-lower
+next-upper
+next
+(reducer 0 127 x)
+(defn reducer [lower upper value]
+  (let [next (subs value 1)
+        up? (case (nth (take 1 value) 0)
+                (\B \R) true
+                false)
+        next-n (int (Math/floor (/ (- upper lower) 2)))
+        next-lower (if (true? up?) (- upper next-n) lower)
+        next-upper (if (true? up?) upper (+ lower next-n))]
+        [:up next-upper :low next-lower]))
+(reducer 0 127 x)
+(defn reducer [lower upper value]
+  (let [next (subs value 1)
+        up? (case (nth (take 1 value) 0)
+                (\B \R) true
+                false)
+        next-n (int (Math/floor (/ (- upper lower) 2)))
+        next-lower (if (true? up?) (- upper next-n) lower)
+        next-upper (if (true? up?) upper (+ lower next-n))]
+        (if (= next-upper next-lower) next-upper next-upper)))
+(reducer 0 127 x)
+(defn reducer [lower upper value]
+  (let [next (subs value 1)
+        up? (case (nth (take 1 value) 0)
+                (\B \R) true
+                false)
+        next-n (int (Math/floor (/ (- upper lower) 2)))
+        next-lower (if (true? up?) (- upper next-n) lower)
+        next-upper (if (true? up?) upper (+ lower next-n))]
+        (if (= next-upper next-lower) next-upper (reducer next-lower next-upper next))))
+(reducer 0 127 x)
+(clojure.string/split x 7)
+(clojure.string/split x "" 7)
+(clojure.string/split x #"" 7)
+(clojure.string/split x #"" 8)
+(split-at 7 x)
+(nth (split-at 7 x) 0)
+(str (nth (split-at 7 x) 0))
+(subs (nth (split-at 7 x) 0) 1)
+(take 1 (nth (split-at 7 x) 0))
+(nth (split-at 7 x) 0)
+(rest (nth (split-at 7 x) 0))
+(nth (nth (split-at 7 x) 0) 0)
+(def x ())
+(nth x 0)
+(rest x)
+(defn reducer [lower upper value]
+  (let [next (rest value)
+        up? (case (nth value 0)
+                (\B \R) true
+                false)
+        next-n (int (Math/floor (/ (- upper lower) 2)))
+        next-lower (if (true? up?) (- upper next-n) lower)
+        next-upper (if (true? up?) upper (+ lower next-n))]
+        (if (= next-upper next-lower) next-upper (reducer next-lower next-upper next))))
+(defn parse-pass [boardingpass]
+  (let [row (reducer 0 127 (nth (split-at 7 boardingpass) 0))
+        column (reducer 0 7 (nth (split-at 7 boardingpass) 1))]
+        [:row row :column column :seat-id (+ (* row 8) column]))
+(defn reducer [lower upper value]
+  (let [next (rest value)
+        up? (case (nth value 0)
+                (\B \R) true
+                false)
+        next-n (int (Math/floor (/ (- upper lower) 2)))
+        next-lower (if (true? up?) (- upper next-n) lower)
+        next-upper (if (true? up?) upper (+ lower next-n))]
+        (if (= next-upper next-lower) next-upper (reducer next-lower next-upper next))))
+(defn parse-pass [boardingpass]
+  (let [row (reducer 0 127 (nth (split-at 7 boardingpass) 0))
+        column (reducer 0 7 (nth (split-at 7 boardingpass) 1))]
+        [:row row :column column :seat-id (+ (* row 8) column)]))
+(def x "FBFBBFFRLR")
+(parse-pass x)
+(max (1 4 5))
+(d5/p1-solution d5/input)
+(map #(parse-pass %) d5/input)
+(map #(parse-pass %) d5/input-test)
+(map #(d5/parse-pass %) d5/input)
+(def y (take 1 (map #(d5/parse-pass %) d5/input)))
+y
+(nth y 0)
+(:sead-id (nth y 0))
+(:seat-id (nth y 0))
+((nth y 0) :seat-id)
+(get :seat-id (nth y 0))
+(def foo {:foo bar})
+(def foo {:foo "bar"})
+(:foo foo)
+(d5/p1-solution d5/input)
+(filter #(:seat-id %) (map #(d5/parse-pass %) d5/input))
+(def foo {:foo "bar"})
+(get foo :foo)
+(map #(get % :seat-id) (map #(d5/parse-pass %) d5/input))
+(apply max (map #(get % :seat-id) (map #(d5/parse-pass %) d5/input)))

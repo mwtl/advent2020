@@ -3,6 +3,7 @@
             [aoc2020.day2 :as d2]
             [aoc2020.day3 :as d3]
             [aoc2020.day4 :as d4]
+            [aoc2020.day5 :as d5]
             [malli.core :as m]))
 
 ;(def d1-solution-part1 (d1/solution d1/input 2020 2))
@@ -16,6 +17,7 @@
 
 ;(def d4-solution-part1 (d4/p1-solution d4/input))
 ;(def d4-solution-part2 (d4/p2-solution d4/input))
+
 
 (defn -main
   "I don't do a whole lot ... yet."
