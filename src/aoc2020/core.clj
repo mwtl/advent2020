@@ -4,7 +4,7 @@
             [aoc2020.day3 :as d3]
             [aoc2020.day4 :as d4]
             [aoc2020.day5 :as d5]
-            [malli.core :as m]))
+            [aoc2020.day6 :as d6]))
 
 ;(def d1-solution-part1 (d1/solution d1/input 2020 2))
 ;(def d1-solution-part2 (d1/solution d1/input 2020 3))
@@ -17,6 +17,9 @@
 
 ;(def d4-solution-part1 (d4/p1-solution d4/input))
 ;(def d4-solution-part2 (d4/p2-solution d4/input))
+
+;(def d5-solution-part1 (d5/p1-solution d5/input))
+(def d5-solution-part2 d5/p2-solution)
 
 
 (defn -main
