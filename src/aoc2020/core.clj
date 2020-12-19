@@ -5,6 +5,7 @@
             [aoc2020.day4 :as d4]
             [aoc2020.day5 :as d5]
             [aoc2020.day6 :as d6]
+            [aoc2020.day7 :as d7]
             [clojure.math.combinatorics :as combo]))
 
 ;(def d1-solution-part1 (d1/solution d1/input 2020 2))
@@ -24,6 +25,8 @@
 
 ;(def d6-solution-part1 d6/p1-solution)
 ;(def d6-solution-part2 (d6/p2-solution d6/input))
+
+(def d7-solution-part1 (d7/p1-solution d7/input :shiny_gold_bag))
 
 (defn -main
   "I don't do a whole lot ... yet."
